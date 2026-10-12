@@ -1,0 +1,83 @@
+Aim:
+Demonstrate performing clustering of datasets.To perform clustering on a given datasetusingunsupervisedlearningtechniques(suchas K-Means,Hierarchical)in order to group the data into meaningful clusters based on similarities and patterns without prior class labels.
+ToPerformtheclusteringofdatasetswehavetofollowthese steps:
+•	LoadingDataset
+•	OpenWekaExplorer→Preprocesspanel.
+•	Loadadatasetsuchasiris.arfforweather.numeric.arff.
+•	Wekadisplaysthenumberofattributesandinstances.
+•	Numericdatasets(likeIris)arebestfor clustering.
+
+
+2.	Runningk-MeansClustering
+•	GototheClusterpanelinWekaExplorer.
+•	SelectSimpleKMeansfromtheclusteringalgorithms.
+
+ 
+•	Choosedifferentvaluesofk(e.g.,2,3,4)totestclustering.
+
+•	Runthealgorithmtogenerateclusterassignments.
+•	Outputincludesclustercentroids,numberofinstancespercluster,andSum of Squared Errors (SSE).
+
+AfterChangingthevalues(numClusters:5):
+
+ 
+•	Runthealgorithmtogenerateclusterassignments.
+•	Outputincludesclustercentroids,numberofinstancespercluster,andSum of Squared Errors (SSE).
+
+•	StudyingClusterResults
+•	Foririsdataset,k=2oftenmatchesthe3flowerspecies.
+•	heoutputshowscentroids,whichrepresentthemeanvaluesofattributes percluster.
+•	SSEmeasureshowcompactclustersare(lowerisbetter).
+•	Misclassificationshappenifclustersoverlapinattributespace.
+•	Comparingclusterswiththeactualclassattributeshowsclusteringaccuracy.
+
+ 
+
+ 
+
+
+
+4.	ExploringOtherClusteringTechniques
+•	WekaprovidesotherclusteringalgorithmslikeEM(Expectation- Maximization), Hierarchical clustering, and COBWEB.
+•	EMautomaticallydeterminesthenumberofclustersbasedonprobability distribution.
+•	Hierarchicalclusteringbuildsatree(dendrogram)ofnestedclusters.
+•	Differentalgorithmsmayproducedifferentclusterstructures.
+•	Comparingresultshelpsunderstandwhichalgorithmsuitsthedataset.
+ 
+ 
+BeforeChangingthevalues(numClusters:2):
+
+
+
+ 
+AfterChangingthevalues(numClusters:4):
+
+
+
+5.	VisualizingClusters&Insights
+•	OpentheVisualizepanel inWeka.
+•	SelectattributesonXandYaxestoviewscatterplotsofclusters.
+•	Clustersareshownindifferentcolorsforclear separation.
+•	Well-separateddatasets(likeIris)showclearclusters.
+•	Visualizationconfirmsifchosenkcorrectlymatchesnaturalgrouping.
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
